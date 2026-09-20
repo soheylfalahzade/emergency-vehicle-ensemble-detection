@@ -1,0 +1,35 @@
+# datasets (too large / redistributable licenses vary)
+datasets/kitti_raw/
+datasets/*_raw/
+datasets/ev_*/
+datasets/emergency_merged/
+datasets/kitti_yolo/
+datasets/folds/
+
+# model weights (too large for git)
+*.pt
+*.pth
+results/*/weights/
+results/*/*.pt
+
+# logs (can be large, regenerable)
+results/*.log
+results/*.out
+results/nohup*.out
+
+# python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# conda/env
+.env
+
+# ultralytics batch visualization images (large, not essential)
+results/*/train_batch*.jpg
+results/*/val_batch*.jpg
+results/*/labels.jpg
+results/*/labels_correlogram.jpg
+datasets/holdout_eval/*_holdout/train_batch*.jpg
+datasets/holdout_eval/*_holdout/val_batch*.jpg
+datasets/holdout_eval/*_holdout/labels.jpg

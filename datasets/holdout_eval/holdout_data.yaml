@@ -1,0 +1,4 @@
+train: /home/dmin/Portfolio/Smart_Traffic_System/datasets/emergency_merged/train/images
+val: /home/dmin/Portfolio/Smart_Traffic_System/datasets/emergency_merged/test/images
+nc: 4
+names: ["ambulance", "police", "firetruck", "car"]
