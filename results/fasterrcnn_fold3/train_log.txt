@@ -1,0 +1,15 @@
+fold 3 epoch 1/15 DONE train_loss=0.1512 val_loss=0.1661
+fold 3 epoch 2/15 DONE train_loss=0.1009 val_loss=0.1526
+fold 3 epoch 3/15 DONE train_loss=0.0873 val_loss=0.1449
+fold 3 epoch 4/15 DONE train_loss=0.0772 val_loss=0.1473
+fold 3 epoch 5/15 DONE train_loss=0.0709 val_loss=0.1447
+fold 3 epoch 6/15 DONE train_loss=0.0664 val_loss=0.1390
+fold 3 epoch 7/15 DONE train_loss=0.0647 val_loss=0.1402
+fold 3 epoch 8/15 DONE train_loss=0.0614 val_loss=0.1362
+fold 3 epoch 9/15 DONE train_loss=0.0450 val_loss=0.1191
+fold 3 epoch 10/15 DONE train_loss=0.0376 val_loss=0.1177
+fold 3 epoch 11/15 DONE train_loss=0.0343 val_loss=0.1181
+fold 3 epoch 12/15 DONE train_loss=0.0318 val_loss=0.1205
+fold 3 epoch 13/15 DONE train_loss=0.0299 val_loss=0.1184
+fold 3 epoch 14/15 DONE train_loss=0.0280 val_loss=0.1202
+fold 3 epoch 15/15 DONE train_loss=0.0267 val_loss=0.1198
