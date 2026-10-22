@@ -1,0 +1,25 @@
+nohup: ignoring input
+
+## A = /home/dmin/holdout_eval_testonly.yaml: 1036 unique-location images hashed
+   vs ../datasets/folds_v3/fold_0/data.yaml: 28788 images
+      A images with a near-duplicate in B: 989 of 1036 (95.5%)  [direct 989, only after horizontal flip 0, identical hash 979]
+      pair (distance 0):
+        /home/dmin/Portfolio/Smart_Traffic_System/datasets/emergency_merged/test/images/emergency_vehicles_raw_000748.jpg
+        /home/dmin/Portfolio/Smart_Traffic_System/datasets/folds_v3/fold_0/val/images/emergency_vehicles_raw__test__19674485419_a752fcc16e_c_jpg.rf.089c959ad2b6b7acd3b18b23cd4b66a2.jpg
+      pair (distance 0):
+        /home/dmin/Portfolio/Smart_Traffic_System/datasets/emergency_merged/test/images/emergency_vehicles_raw_000749.jpg
+        /home/dmin/Portfolio/Smart_Traffic_System/datasets/folds_v3/fold_0/train/images/emergency_vehicles_raw__test__22953702772_e583fea251_c_jpg.rf.304ebd8b30c24d85a3bad1a2f0d36c4f.jpg
+      pair (distance 0):
+        /home/dmin/Portfolio/Smart_Traffic_System/datasets/emergency_merged/test/images/emergency_vehicles_raw_000750.jpg
+        /home/dmin/Portfolio/Smart_Traffic_System/datasets/folds_v3/fold_0/train/images/emergency_vehicles_raw__test__30449384408_7de773d56f_c_jpg.rf.d2268a9f7da006f34bcf3bd52b4626e3.jpg
+   vs ../datasets/folds/fold_0/data.yaml: 29831 images
+      A images with a near-duplicate in B: 229 of 1036 (22.1%)  [direct 175, only after horizontal flip 54, identical hash 40]
+      pair (distance 2):
+        /home/dmin/Portfolio/Smart_Traffic_System/datasets/emergency_merged/test/images/ev_bahrain_v6_003755.jpg
+        /home/dmin/Portfolio/Smart_Traffic_System/datasets/folds/fold_0/train/images/ev_yolo_v1_004157.jpg
+      pair (distance 4):
+        /home/dmin/Portfolio/Smart_Traffic_System/datasets/emergency_merged/test/images/ev_bahrain_v6_003759.jpg
+        /home/dmin/Portfolio/Smart_Traffic_System/datasets/folds/fold_0/train/images/ev_bahrain_v6_001509.jpg
+      pair (distance 2):
+        /home/dmin/Portfolio/Smart_Traffic_System/datasets/emergency_merged/test/images/ev_bahrain_v6_003762.jpg
+        /home/dmin/Portfolio/Smart_Traffic_System/datasets/folds/fold_0/train/images/ev_bahrain_v6_003655.jpg
