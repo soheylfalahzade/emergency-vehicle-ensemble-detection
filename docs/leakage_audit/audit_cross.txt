@@ -1,0 +1,53 @@
+nohup: ignoring input
+
+## A = ../datasets/holdout_clean/data.yaml: 1317 unique-location images hashed
+   vs ../datasets/folds_v5/fold_0/data.yaml: 30780 images
+      A images with a near-duplicate in B: 1292 of 1317 (98.1%)  [direct 1290, only after horizontal flip 2, identical hash 1285]
+      pair (distance 0):
+        /home/dmin/Portfolio/Smart_Traffic_System/datasets/holdout_clean/images/emergency_vehicles_raw__test__19674485419_a752fcc16e_c_jpg.rf.089c959ad2b6b7acd3b18b23cd4b66a2.jpg
+        /home/dmin/Portfolio/Smart_Traffic_System/datasets/folds_v5/fold_0/val/images/emergency_vehicles_raw__test__19674485419_a752fcc16e_c_jpg.rf.089c959ad2b6b7acd3b18b23cd4b66a2.jpg
+      pair (distance 0):
+        /home/dmin/Portfolio/Smart_Traffic_System/datasets/holdout_clean/images/emergency_vehicles_raw__test__23106468630_58555c8892_c_jpg.rf.a1e32f05ae793a3b0e948258541cef93.jpg
+        /home/dmin/Portfolio/Smart_Traffic_System/datasets/folds_v5/fold_0/val/images/emergency_vehicles_raw__test__23106468630_58555c8892_c_jpg.rf.a1e32f05ae793a3b0e948258541cef93.jpg
+      pair (distance 0):
+        /home/dmin/Portfolio/Smart_Traffic_System/datasets/holdout_clean/images/emergency_vehicles_raw__test__32576725407_21b6cc03f2_c_jpg.rf.f22b0fd462bd645f4c194d027b18104b.jpg
+        /home/dmin/Portfolio/Smart_Traffic_System/datasets/folds_v5/fold_0/train/images/emergency_vehicles_raw__test__32576725407_21b6cc03f2_c_jpg.rf.f22b0fd462bd645f4c194d027b18104b.jpg
+   vs ../datasets/folds_v4/fold_0/data.yaml: 28788 images
+      A images with a near-duplicate in B: 1292 of 1317 (98.1%)  [direct 1290, only after horizontal flip 2, identical hash 1285]
+      pair (distance 0):
+        /home/dmin/Portfolio/Smart_Traffic_System/datasets/holdout_clean/images/emergency_vehicles_raw__test__19674485419_a752fcc16e_c_jpg.rf.089c959ad2b6b7acd3b18b23cd4b66a2.jpg
+        /home/dmin/Portfolio/Smart_Traffic_System/datasets/folds_v4/fold_0/val/images/emergency_vehicles_raw__test__19674485419_a752fcc16e_c_jpg.rf.089c959ad2b6b7acd3b18b23cd4b66a2.jpg
+      pair (distance 0):
+        /home/dmin/Portfolio/Smart_Traffic_System/datasets/holdout_clean/images/emergency_vehicles_raw__test__23106468630_58555c8892_c_jpg.rf.a1e32f05ae793a3b0e948258541cef93.jpg
+        /home/dmin/Portfolio/Smart_Traffic_System/datasets/folds_v4/fold_0/val/images/emergency_vehicles_raw__test__23106468630_58555c8892_c_jpg.rf.a1e32f05ae793a3b0e948258541cef93.jpg
+      pair (distance 0):
+        /home/dmin/Portfolio/Smart_Traffic_System/datasets/holdout_clean/images/emergency_vehicles_raw__test__32576725407_21b6cc03f2_c_jpg.rf.f22b0fd462bd645f4c194d027b18104b.jpg
+        /home/dmin/Portfolio/Smart_Traffic_System/datasets/folds_v4/fold_0/train/images/emergency_vehicles_raw__test__32576725407_21b6cc03f2_c_jpg.rf.f22b0fd462bd645f4c194d027b18104b.jpg
+   vs ../datasets/folds_clean/fold_0/data.yaml: 26115 images
+      A images with a near-duplicate in B: 268 of 1317 (20.3%)  [direct 193, only after horizontal flip 75, identical hash 1]
+      pair (distance 4):
+        /home/dmin/Portfolio/Smart_Traffic_System/datasets/holdout_clean/images/ev_bahrain_v6__train__af373_jpeg.rf.c26de2c4609c47bc5fe7b082a8de1751.jpg
+        /home/dmin/Portfolio/Smart_Traffic_System/datasets/folds_clean/fold_0/train/images/ev_bahrain_v6__valid__af375_jpeg.rf.a6a6e12f0278d1a8d3253a070380a91d.jpg
+      pair (distance 1):
+        /home/dmin/Portfolio/Smart_Traffic_System/datasets/holdout_clean/images/ev_bahrain_v6__train__af378_jpeg.rf.764a61d926c579c4d09dc289de3a26d0.jpg
+        /home/dmin/Portfolio/Smart_Traffic_System/datasets/folds_clean/fold_0/train/images/ev_bahrain_v6__valid__af375_jpeg.rf.a6a6e12f0278d1a8d3253a070380a91d.jpg
+      pair (distance 2) [mirrored]:
+        /home/dmin/Portfolio/Smart_Traffic_System/datasets/holdout_clean/images/ev_bahrain_v6__train__af378_jpeg.rf.aa6e56f1df5de61ca5250f9825c7fc89.jpg
+        /home/dmin/Portfolio/Smart_Traffic_System/datasets/folds_clean/fold_0/train/images/ev_bahrain_v6__valid__af375_jpeg.rf.a6a6e12f0278d1a8d3253a070380a91d.jpg
+   vs ../datasets/folds/fold_0/data.yaml: 29831 images
+      A images with a near-duplicate in B: 1249 of 1317 (94.8%)  [direct 1246, only after horizontal flip 3, identical hash 1235]
+      pair (distance 0):
+        /home/dmin/Portfolio/Smart_Traffic_System/datasets/holdout_clean/images/emergency_vehicles_raw__train__11903104646_da46beac12_c_jpg.rf.e4e1a755d1868bba6f7a35be59ca0e2b.jpg
+        /home/dmin/Portfolio/Smart_Traffic_System/datasets/folds/fold_0/train/images/emergency_vehicles_raw_000122.jpg
+      pair (distance 0):
+        /home/dmin/Portfolio/Smart_Traffic_System/datasets/holdout_clean/images/emergency_vehicles_raw__train__17205906131_95d8565505_z_jpg.rf.a74deeefbad554c2dbf4bb0fd85179fd.jpg
+        /home/dmin/Portfolio/Smart_Traffic_System/datasets/folds/fold_0/train/images/emergency_vehicles_raw_000335.jpg
+      pair (distance 0):
+        /home/dmin/Portfolio/Smart_Traffic_System/datasets/holdout_clean/images/emergency_vehicles_raw__train__2527383503_c25e545258_b_jpg.rf.4316c8ed5c52d3bb26ab6fbaae969888.jpg
+        /home/dmin/Portfolio/Smart_Traffic_System/datasets/folds/fold_0/train/images/emergency_vehicles_raw_000133.jpg
+
+## A = ../datasets/holdout_v4/data.yaml: 381 unique-location images hashed
+   vs ../datasets/folds_v5/fold_0/data.yaml: 30780 images
+      A images with a near-duplicate in B: 0 of 381 (0.0%)  [direct 0, only after horizontal flip 0, identical hash 0]
+   vs ../datasets/folds_v4/fold_0/data.yaml: 28788 images
+      A images with a near-duplicate in B: 0 of 381 (0.0%)  [direct 0, only after horizontal flip 0, identical hash 0]

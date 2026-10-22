@@ -1,0 +1,69 @@
+nohup: ignoring input
+
+## ../datasets/folds/fold_0/data.yaml
+   classes: {0: 'ambulance', 1: 'police', 2: 'firetruck', 3: 'car'}
+   [train] images=25268 objects=63030 empty_labels=0 missing_label_files=0 malformed_lines=0 tiny_boxes=25
+        per class: {'ambulance': 6788, 'police': 1656, 'firetruck': 6543, 'car': 48043}
+   [val] images=4563 objects=13879 empty_labels=0 missing_label_files=0 malformed_lines=0 tiny_boxes=6
+        per class: {'ambulance': 769, 'police': 51, 'firetruck': 544, 'car': 12515}
+   near-duplicates inside train: 15884
+   near-duplicates inside val: 293
+   LEAKAGE near-duplicates between train and val: 3613 (identical hash: 1330, match only after horizontal flip: 3020)
+      pair (hash distance 1) [mirrored]:
+        /home/dmin/Portfolio/Smart_Traffic_System/datasets/folds/fold_0/train/images/emergency_vehicles_raw_000069.jpg
+        /home/dmin/Portfolio/Smart_Traffic_System/datasets/folds/fold_0/val/images/emergency_vehicles_raw_000006.jpg
+      pair (hash distance 0) [mirrored]:
+        /home/dmin/Portfolio/Smart_Traffic_System/datasets/folds/fold_0/train/images/emergency_vehicles_raw_000122.jpg
+        /home/dmin/Portfolio/Smart_Traffic_System/datasets/folds/fold_0/val/images/emergency_vehicles_raw_000014.jpg
+      pair (hash distance 1) [mirrored]:
+        /home/dmin/Portfolio/Smart_Traffic_System/datasets/folds/fold_0/train/images/emergency_vehicles_raw_000109.jpg
+        /home/dmin/Portfolio/Smart_Traffic_System/datasets/folds/fold_0/val/images/emergency_vehicles_raw_000018.jpg
+
+## ../datasets/folds_clean/fold_0/data.yaml
+   classes: {0: 'ambulance', 1: 'police', 2: 'firetruck', 3: 'car'}
+   [train] images=23746 objects=59694 empty_labels=0 missing_label_files=0 malformed_lines=0 tiny_boxes=29
+        per class: {'ambulance': 6397, 'police': 1552, 'firetruck': 6000, 'car': 45745}
+   [val] images=2369 objects=7053 empty_labels=0 missing_label_files=0 malformed_lines=0 tiny_boxes=1
+        per class: {'ambulance': 388, 'police': 28, 'firetruck': 335, 'car': 6302}
+   near-duplicates inside train: 15752
+   near-duplicates inside val: 367
+   LEAKAGE near-duplicates between train and val: 246 (identical hash: 1, match only after horizontal flip: 12)
+      pair (hash distance 4):
+        /home/dmin/Portfolio/Smart_Traffic_System/datasets/folds_clean/fold_0/train/images/ev_bahrain_v6__train__af381_jpeg.rf.4eacee507385e078a07f2628f9cee5ac.jpg
+        /home/dmin/Portfolio/Smart_Traffic_System/datasets/folds_clean/fold_0/val/images/ev_bahrain_v6__train__af383_jpeg.rf.88705b85e957d6f9be99fd0d0eb8d46e.jpg
+      pair (hash distance 4):
+        /home/dmin/Portfolio/Smart_Traffic_System/datasets/folds_clean/fold_0/train/images/ev_bahrain_v6__train__youtube-31_jpg.rf.def4426a7b9906f66e9d7384ce1dfccf_aug.jpg
+        /home/dmin/Portfolio/Smart_Traffic_System/datasets/folds_clean/fold_0/val/images/ev_bahrain_v6__train__youtube-32_jpg.rf.2f91955fadcc526ee2552f4506f1c59b.jpg
+      pair (hash distance 2) [mirrored]:
+        /home/dmin/Portfolio/Smart_Traffic_System/datasets/folds_clean/fold_0/train/images/ev_bahrain_v6__train__youtube-31_jpg.rf.def4426a7b9906f66e9d7384ce1dfccf_aug.jpg
+        /home/dmin/Portfolio/Smart_Traffic_System/datasets/folds_clean/fold_0/val/images/ev_bahrain_v6__train__youtube-32_jpg.rf.6c1dfd8fe263b20da9329c192b1d1c9a.jpg
+
+## ../datasets/folds_v3/fold_0/data.yaml
+   classes: {0: 'ambulance', 1: 'police', 2: 'firetruck', 3: 'car'}
+   [train] images=28099 objects=74221 empty_labels=0 missing_label_files=0 malformed_lines=0 tiny_boxes=32
+        per class: {'ambulance': 6492, 'police': 1536, 'firetruck': 5787, 'car': 60406}
+   [val] images=689 objects=1287 empty_labels=0 missing_label_files=0 malformed_lines=0 tiny_boxes=0
+        per class: {'ambulance': 431, 'police': 30, 'firetruck': 287, 'car': 539}
+   near-duplicates inside train: 18072
+   near-duplicates inside val: 266
+   no near-duplicates found across splits
+
+## ../datasets/folds_v4/fold_0/data.yaml
+   classes: {0: 'ambulance', 1: 'police', 2: 'firetruck', 3: 'car'}
+   [train] images=28099 objects=78445 empty_labels=0 missing_label_files=0 malformed_lines=0 tiny_boxes=32
+        per class: {'ambulance': 6492, 'police': 1536, 'firetruck': 5787, 'car': 64630}
+   [val] images=689 objects=1529 empty_labels=0 missing_label_files=0 malformed_lines=0 tiny_boxes=0
+        per class: {'ambulance': 431, 'police': 30, 'firetruck': 287, 'car': 781}
+   near-duplicates inside train: 18072
+   near-duplicates inside val: 266
+   no near-duplicates found across splits
+
+## ../datasets/folds_v5/fold_0/data.yaml
+   classes: {0: 'ambulance', 1: 'police', 2: 'firetruck', 3: 'car'}
+   [train] images=30091 objects=97486 empty_labels=0 missing_label_files=0 malformed_lines=0 tiny_boxes=32
+        per class: {'ambulance': 6492, 'police': 1536, 'firetruck': 5787, 'car': 83671}
+   [val] images=689 objects=1529 empty_labels=0 missing_label_files=0 malformed_lines=0 tiny_boxes=0
+        per class: {'ambulance': 431, 'police': 30, 'firetruck': 287, 'car': 781}
+   near-duplicates inside train: 19611
+   near-duplicates inside val: 266
+   no near-duplicates found across splits
